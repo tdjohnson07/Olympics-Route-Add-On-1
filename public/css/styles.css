@@ -1,0 +1,29 @@
+body {
+  background-image: url("https://az616578.vo.msecnd.net/files/2016/02/26/635920627891520484-247334876_american%20flag.jpg");
+  background-size: 1310px 800px;
+}
+
+.wrapper {
+  width: 55%;
+  background-color: white;
+  margin: 50px auto;
+  padding: 50px;
+  border: 2px solid black;
+}
+
+.city {
+  font-style: italic;
+}
+
+h3 {
+  margin-top: 50px;
+  border-bottom: 1px solid black;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 11pt;
+  background-color: #eee;
+}

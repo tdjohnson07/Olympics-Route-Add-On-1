@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="olympianApp">
+  <head>
+    <title>Olympians to Watch</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="vendor/angular.min.js"></script>
+    <script src="vendor/angular-route/angular-route.min.js"></script>
+    <script src="js/client.js"></script>
+    <base href="/" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Olympians to Watch</h1>
+      </header>
+      <a href="/weightlifting"><button ng-controller="LiftingController">Weightlifting</button></a>
+      <a href="/archery"><button ng-controller="ArcheryController">Archery</button></a>
+      <a href="/boxing"><button ng-controller="BoxingController">Boxing</button></a>
+      <a href="/triathlon"><button ng-controller="TriathlonController">Triathlon</button></a>
+      <a href="/fencing"><button ng-controller="FencingController">Fencing</button></a>
+
+      <div ng-view>
+      </div>
+    </div>
+  </body>
+</html>
