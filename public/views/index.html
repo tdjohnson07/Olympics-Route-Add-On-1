@@ -5,7 +5,14 @@
     <link href="css/styles.css" rel="stylesheet" />
     <script src="vendor/angular.min.js"></script>
     <script src="vendor/angular-route/angular-route.min.js"></script>
-    <script src="js/client.js"></script>
+    <script src="js/olympianApp.module.js"></script>
+    <script src="js/olympianApp.config.js"></script>
+    <script src="js/ArcheryController.js"></script>
+    <script src="js/BoxingController.js"></script>
+    <script src="js/FencingController.js"></script>
+    <script src="js/TriathlonController.js"></script>
+    <script src="js/WeightliftingController.js"></script>
+    <script src ="js/DataService.js"></script>
     <base href="/" />
   </head>
 
@@ -14,7 +21,7 @@
       <header>
         <h1>Olympians to Watch</h1>
       </header>
-      <a href="/weightlifting"><button ng-controller="LiftingController">Weightlifting</button></a>
+      <a href="/weightlifting"><button ng-controller="WeightliftingController">Weightlifting</button></a>
       <a href="/archery"><button ng-controller="ArcheryController">Archery</button></a>
       <a href="/boxing"><button ng-controller="BoxingController">Boxing</button></a>
       <a href="/triathlon"><button ng-controller="TriathlonController">Triathlon</button></a>
